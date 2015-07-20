@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Narzew</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>
+      .sample-text-yolo {
+        background-color: rgba(50, 50, 50, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="//i.imgur.com/IsCv4sC.gif" />
+          <div class="caption center-align amber-text">
+            <div class="sample-text-yolo">
+              <h3>Today's weather is</h3>
+              <h1>Narzew</h1>
+              <h3>with a chance of PHP, Ruby, Android and bicycles</h3>
+              <a class="btn-floating btn-large waves-effect waves-light amber" href="//github.com/Narzew"><i class="fa fa-github"></i></a>
+              <a class="btn-floating btn-large waves-effect waves-light amber" href="//bitbucket.org/Narzew"><i class="fa fa-bitbucket"></i></a>
+              <a class="btn-floating btn-large waves-effect waves-light amber" href="//www.strava.com/athletes/5388608"><i class="fa fa-bicycle"></i></a>
+              <a class="btn-floating btn-large waves-effect waves-light amber" href="//play.google.com/store/apps/developer?id=Narzew"><i class="fa fa-android"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $(".slider").slider({full_width: true, indicator: false});
+      });
+    </script>
+  </body>
+</html>
